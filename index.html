@@ -2,14 +2,22 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>API Tests</title>
+	<title>Movie Title Query</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="apps/app.js"></script>
+	<link href="apps/style.css" rel="stylesheet" type="css/text">
 </head>
 <body>
-	<input type="text" id="query" placeholder="Enter your query">
+	<h1>Query movie titles using the omdb API</h1>
 	<form id="search-term">
+		<input type="text" id="query" placeholder="Enter your query"></br>
+		<button type="submit">Submit</button>
+
 		<div id="search-results">
+			<h3>Search Results</h3>
+		</div>
+		<div id="failed-searches">
+			<h3>Failed Searches</h3>
 		</div>
 	</form>
 

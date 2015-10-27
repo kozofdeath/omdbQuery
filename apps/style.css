@@ -1,0 +1,32 @@
+body {
+	width:100%;
+}
+
+body h1 {
+	text-align: center;
+}
+
+form {
+	width:50%;
+	margin:0 auto;
+}
+
+#search-results {
+	float:left;
+	width:50%;
+	height:100%;
+}
+
+#failed_searches {
+	width:50%;
+}
+
+h3 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+div {
+	border: 1px solid red;
+}
+
