@@ -10,14 +10,18 @@
 <body>
 	<h1>Query movie titles using the omdb API</h1>
 	<form id="search-term">
-		<input type="text" id="query" placeholder="Enter your query"></br>
-		<button type="submit">Submit</button>
+		<div class="holder">
+			<input type="text" id="query" placeholder="Enter your query"></br>
+			<button type="submit">Submit</button>
+		</div>
 
 		<div id="search-results">
 			<h3>Search Results</h3>
+			<hr id="break1">
 		</div>
 		<div id="failed-searches">
 			<h3>Failed Searches</h3>
+			<hr id="break2">
 		</div>
 	</form>
 

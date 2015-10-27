@@ -13,6 +13,7 @@ $(function() {
 				$("#query").val("");
 			 } catch(err) {
 				$("#failed-searches").append($("<p/>").text(searchTerm));
+				$("#query").val("");
 				alert("No matches!");
 
 			};
@@ -23,7 +24,7 @@ $(function() {
 function showData(data) {
 
 		data.length;
-		$("#search-results").prepend($('<hr>')).prepend($('<div/>').attr('id', query_number));
+		$("#break1").after($('<hr>')).after($('<div/>').attr('id', query_number));
 		$.each(data, function(index, obj) {
 			console.log(query_number)
 			$('#' + query_number).append($("<span/>").html((index + 1) + " : " + obj.Title + "<br>"));

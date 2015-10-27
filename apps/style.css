@@ -17,8 +17,9 @@ form {
 	height:100%;
 }
 
-#failed_searches {
+#failed-searches {
 	width:50%;
+	margin-left:50%;
 }
 
 h3 {
@@ -30,3 +31,9 @@ div {
 	border: 1px solid red;
 }
 
+}
+.holder {
+	width:100%;
+	text-align: center;
+	margin:auto;
+}
